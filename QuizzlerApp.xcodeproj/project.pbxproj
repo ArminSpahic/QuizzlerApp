@@ -9,8 +9,8 @@
 /* Begin PBXBuildFile section */
 		2FA365FC2056E64200B53C34 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA365FB2056E64200B53C34 /* Question.swift */; };
 		2FA365FE2056F1E000B53C34 /* QuestionBank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA365FD2056F1E000B53C34 /* QuestionBank.swift */; };
-		2FCD6AF6205EF6E60082B6A3 /* ProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FCD6AF4205EF6E50082B6A3 /* ProgressHUD.m */; };
-		2FCD6AF7205EF6E60082B6A3 /* ProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2FCD6AF5205EF6E50082B6A3 /* ProgressHUD.bundle */; };
+		2FCD6AFB205EFF880082B6A3 /* ProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FCD6AF8205EFF870082B6A3 /* ProgressHUD.m */; };
+		2FCD6AFC205EFF880082B6A3 /* ProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2FCD6AF9205EFF870082B6A3 /* ProgressHUD.bundle */; };
 		633646BF1B8C657400FF45E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633646BE1B8C657400FF45E2 /* AppDelegate.swift */; };
 		633646C11B8C657400FF45E2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633646C01B8C657400FF45E2 /* ViewController.swift */; };
 		633646C61B8C657400FF45E2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 633646C51B8C657400FF45E2 /* Images.xcassets */; };
@@ -22,9 +22,9 @@
 		2FA365FB2056E64200B53C34 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 		2FA365FD2056F1E000B53C34 /* QuestionBank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionBank.swift; sourceTree = "<group>"; };
 		2FCD6AF2205EF6E40082B6A3 /* Quizzler-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Quizzler-Bridging-Header.h"; sourceTree = "<group>"; };
-		2FCD6AF3205EF6E50082B6A3 /* ProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProgressHUD.h; path = ProgressHUD/ProgressHUD/ProgressHUD/ProgressHUD.h; sourceTree = SOURCE_ROOT; };
-		2FCD6AF4205EF6E50082B6A3 /* ProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ProgressHUD.m; path = ProgressHUD/ProgressHUD/ProgressHUD/ProgressHUD.m; sourceTree = SOURCE_ROOT; };
-		2FCD6AF5205EF6E50082B6A3 /* ProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = ProgressHUD.bundle; path = ProgressHUD/ProgressHUD/ProgressHUD/ProgressHUD.bundle; sourceTree = SOURCE_ROOT; };
+		2FCD6AF8205EFF870082B6A3 /* ProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressHUD.m; sourceTree = "<group>"; };
+		2FCD6AF9205EFF870082B6A3 /* ProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ProgressHUD.bundle; sourceTree = "<group>"; };
+		2FCD6AFA205EFF880082B6A3 /* ProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressHUD.h; sourceTree = "<group>"; };
 		633646B91B8C657400FF45E2 /* Quizzler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Quizzler.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		633646BD1B8C657400FF45E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		633646BE1B8C657400FF45E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -75,9 +75,9 @@
 		633646BC1B8C657400FF45E2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				2FCD6AF5205EF6E50082B6A3 /* ProgressHUD.bundle */,
-				2FCD6AF3205EF6E50082B6A3 /* ProgressHUD.h */,
-				2FCD6AF4205EF6E50082B6A3 /* ProgressHUD.m */,
+				2FCD6AF9205EFF870082B6A3 /* ProgressHUD.bundle */,
+				2FCD6AFA205EFF880082B6A3 /* ProgressHUD.h */,
+				2FCD6AF8205EFF870082B6A3 /* ProgressHUD.m */,
 				633646C71B8C657400FF45E2 /* LaunchScreen.xib */,
 				633646BD1B8C657400FF45E2 /* Info.plist */,
 				2FCD6AF2205EF6E40082B6A3 /* Quizzler-Bridging-Header.h */,
@@ -148,7 +148,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 633646B41B8C657400FF45E2 /* Build configuration list for PBXProject "Quizzler" */;
+			buildConfigurationList = 633646B41B8C657400FF45E2 /* Build configuration list for PBXProject "QuizzlerApp" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -171,9 +171,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2FCD6AF7205EF6E60082B6A3 /* ProgressHUD.bundle in Resources */,
 				ADEB04ED1FBDFEAA00026359 /* Main.storyboard in Resources */,
 				633646C91B8C657400FF45E2 /* LaunchScreen.xib in Resources */,
+				2FCD6AFC205EFF880082B6A3 /* ProgressHUD.bundle in Resources */,
 				633646C61B8C657400FF45E2 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -185,9 +185,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2FCD6AFB205EFF880082B6A3 /* ProgressHUD.m in Sources */,
 				2FA365FC2056E64200B53C34 /* Question.swift in Sources */,
 				2FA365FE2056F1E000B53C34 /* QuestionBank.swift in Sources */,
-				2FCD6AF6205EF6E60082B6A3 /* ProgressHUD.m in Sources */,
 				633646C11B8C657400FF45E2 /* ViewController.swift in Sources */,
 				633646BF1B8C657400FF45E2 /* AppDelegate.swift in Sources */,
 			);
@@ -350,7 +350,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		633646B41B8C657400FF45E2 /* Build configuration list for PBXProject "Quizzler" */ = {
+		633646B41B8C657400FF45E2 /* Build configuration list for PBXProject "QuizzlerApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				633646D61B8C657400FF45E2 /* Debug */,
